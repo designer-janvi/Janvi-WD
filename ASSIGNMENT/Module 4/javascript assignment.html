@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+                    *{
+                              font-family: sans-serif;                
+                    }
+                    .header-wrapper{
+                              background-color: black;
+                              color: white;
+                              font-size: 30px;
+                              text-align: center;
+                              font-family: sans-serif;
+                    }
+                    .q-1{
+                              text-align: left;
+                    }
+                    .view{
+                              border: 1px solid;
+                              width: 50%;
+                    }
+                    table,tr,td{
+                              /* border: 1px solid; */
+                              /* text-align: center; */
+                              width: 50%;
+                              background-color: black;
+                              color: white;
+                    }
+          </style>
+</head>
+<body>
+          <!-- header is start -->
+          <header>
+                    <div class="header-wrapper">
+                              <h1>
+                                                  ASSIGNMENT<br>
+                                        MODULE- 4 (JAVASCRIPT BASIC & DOM)
+                              </h1>
+                    </div>
+          </header>
+          <!-- main si start -->
+          <section>
+                    <div class="question-wrapper">
+                              <div class="q-1">
+                                        <h3>[1] what is javascript ?</h3>
+                                        <p>
+                                          <pre>
+                                         JavaScript is a dynamic computer programming language.
+                                          Itis lightweight and most commonly used as a part of web pages, whoseimplementations allow client-side script to interact with the user and make dynamic pages. 
+                                          It is aninterpreted programming language with object-oriented capabilities.
+                                         </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-2">
+                                        <h3>[2] what is the use of isNaN function ?</h3>
+                                        <p>
+                                         <pre>
+                                         The isNaN() function is used to check whether a given value is an illegal number or not. It returns 
+                                         true if value is a NaN else returns false. It is different from the Number.isNaN() Method.
+                                        </pre>
+                                        </p>
+                                       <hr>
+                              </div>
+                              <div class="q-3">
+                                        <h3>[3] what is negative Infinity ?</h3>
+                                        <p>
+                                        <pre>
+                                         NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property. This 
+                                         value behaves slightly differently than mathematical infinity: Any positive value, including 
+                                         POSITIVE_INFINITY , multiplied by NEGATIVE_INFINITY is NEGATIVE_INFINITY .
+                                        </pre>
+                                        </p>
+                                       <hr>
+                              </div>
+                              <div class="q-4">
+                                        <h3>[4] which company developed JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                        Netscape
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-5">
+                                        <h3>[5] what are undeclared and undefined variables ?</h3>
+                                        <p>
+                                        <pre>
+                                         Undefined variable means a variable has been declared but it does not have a value. Undeclared 
+                                         variable means that the variable does not exist in the program at all.
+                                        </pre>
+                                        </p>
+                                       <hr>
+                              </div>
+                              <div class="q-6">
+                                        <h3>[6] write the code for adding new elements dynamically ?</h3>
+                                        <p>
+                                        <pre>
+                                          <html> 
+                                                   <head> 
+                                                   <title>t1</title> 
+                                                   <script type="text/javascript"> 
+                                                   function addNode() 
+                                                   {var newP = document.createElement("p"); 
+                                                   var textNode = document.createTextNode(" Thisis a new text node"); 
+                                                   newP.appendChild(textNode); 
+                                                   document.getElementById("firstP").appendChild(newP); } 
+                                                   </script></head> 
+                                                   <body><p id="firstP">firstP<p></body> 
+                                        </html> 
+                                        </pre>
+                                        </p> 
+                                        <hr>
+                              </div>
+                              <div class="q-7">
+                                        <h3>[7] what is the different between ViewState and SessionState ?</h3>
+                                        <p>
+                                        <pre>
+                                         <table class="view">
+                                                  <tr>
+                                                            <td>ViewSite</td>
+                                                            <td>SessionState</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>Maintained at page level only.</td>
+                                                            <td>Maintained at session level.</td>        
+                                                  </tr>
+                                                  <tr>
+                                                            <td>View state can only be visible from a  single page and not multiple pages</td>
+                                                             <td>Session state value availability is across all pages available in a user session.</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>It will retain values in the event of a postback operation occurring.</td>
+                                                            <td>In session state, user data remains  in the server. Data is available to user until the browser is closed or there is session expiration.</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>Information is stored on the client’s     end only.</td>
+                                                            <td>Information is stored on the server</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>used to allow the persistence of  page-instance-specific data.</td>
+                                                            <td>used for the persistence of user-specific data on the server’s end.</td>
+                                                  </tr>
+                                                  <tr>
+                                                            <td>ViewState values are lost/cleared when new  page is loaded.</td>
+                                                            <td>SessionState can be cleared by programmer or user or in case of timeouts.</td>
+                                                  </tr>
+                                         </table>
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-8">
+                                        <h3>[8] what is === operator ?</h3>
+                                        <p>
+                                        <pre>
+                                          The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result.
+                                         Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+                                        </pre>
+                                        </p>
+                                         <hr>
+                              </div>
+                              <div class="q-9">
+                                        <h3>[9] How can the style/class of an element be changed ?</h3>
+                                        <p>
+                                        <pre>
+                                         The class name is used as a selector in HTML which helps to give some value to the element attributes.
+                                        The document. getElementById() method is used to return the element in the document 
+                                         with the “id” attribute and the “className” attribute can be used to change/append the class of the element.
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-10">
+                                        <h3>[10] How to read and write a file using JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                        <b>There are two ways to do it: </b> 
+                                         1. Using JavaScript extensions (runs from JavaScript Editor), or 
+                                         2. Using a web page and ActiveX objects (Internet Explorer only) 
+                                            In JavaScript Extensions, you can use 
+                                            fh = fopen(getScriptPath(), 0); to open a file 
+                                            Using ActiveX objects, following should be included in your code to read a file:
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-11">
+                                        <h3>[11] what are all the looping structures in JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                         he JavaScript loops are used to iterate the piece of codeusing for, while, do while or 
+                                         for-in loops. It makes the code compact. It is mostly usedin array. 
+                                        <b>There are four types of loops in JavaScript.</b> 
+                                         1. for loop 
+                                         2. while loop 
+                                         3. do-while loop 
+                                         4. for-in loop 
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-12">
+                                        <h3>[12] How can you convert the string of any base  to an integer in JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                         In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself.<br> This function returns an integer of base which is specified  in second argument of parseInt() function.
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-13">
+                                        <h3>[13] what is function of the delete operator ?</h3>
+                                        <p>
+                                        <pre>
+                                         The delete operator removes a given property from an object. On successful deletion, it will return 
+                                        true , else false will be returned. However, it is important to consider the following scenarios: If the 
+                                        property which you are trying to delete does not exist, delete will not have any effect and will return true .
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-14">
+                                        <h3>[14] what are all the types of pop up boxes available in JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                         JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-15">
+                                        <h3>[15] what ia the use of Void (0) ?</h3>
+                                        <p>
+                                        <pre>
+                                         JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the 
+                                         term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side 
+                                         effects caused while inserting an expression in a web page. 
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-16">
+                                        <h3>[16] How can a page be forced to load another page in JavaScript ?</h3>
+                                        <p>
+                                        <pre>
+                                         Approach: We can use window. location property inside the script tag to forcefully load another 
+                                         page in Javascript. It is a reference to a Location object that is it represents the current location of 
+                                         the document. We can change the URL of a window by accessing it. 
+                                        </pre>
+                                        </p>
+                                        <hr>
+                              </div>
+                              <div class="q-17">
+                                        <h3>[17] What are the disadvantages of using innerHTML in JavaSCript ?</h3>
+                                        <p>
+                                        <pre>
+                                         There is no append support without reparsing the whole innerHTML. This makes changing 
+                                         innerHTML directly very slow. innerHTML does not provide validation and therefore we can 
+                                         potentially insert valid and broken HTML in the document and break it.
+                                        </pre>
+                                        </p>
+
+                              </div>
+
+                    </div>
+          </section>
+</body>
+</html>
