@@ -1,0 +1,12 @@
+*{
+          margin: 0 auto;
+          padding: 0 auto;
+          box-sizing: border-box;
+          font-family:'Josefin Sans', sans-serif;; ;
+          
+      }
+      @font-face {
+              font-family:'Josefin Sans', sans-serif;;
+              src: url("fonts\Josefin_Sans\static\JosefinSans-Medium.ttf");
+      }
+      
